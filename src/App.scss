@@ -1,6 +1,7 @@
-$mainColor: white;
-$linkColor: red;
+$mainColor: #525B5E;
+$linkColor: #E1AD01;
 $bgColor: #E6EBEE;
+$white: #fff;
 
 .App {
     text-align: center;
@@ -32,12 +33,116 @@ $bgColor: #E6EBEE;
 }
 
 .svg-inline--fa {
-    background: $bgColor;
-    padding: 2px;
-    width: 50px;
-    height: 50px;
+    color: $linkColor;
 }
 
 .form-group {
     width: 100vw;
+}
+
+.number-circle {
+    font-weight: 900;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    background: $mainColor;
+    color: $white;
+    text-align: center;
+}
+
+// cards
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cards__item {
+    display: flex;
+    padding: 1rem;
+    @media(min-width: 40rem) {
+        width: 50%;
+    }
+    @media(min-width: 56rem) {
+        width: 33.3333%;
+    }
+}
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    &:hover {
+        .card__image {
+            filter: contrast(100%);
+        }
+    }
+}
+
+.card__content {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.card__image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    filter: contrast(70%);
+    //filter: saturate(180%);
+    overflow: hidden;
+    position: relative;
+    transition: filter 0.5s cubic-bezier(.43,.41,.22,.91);;
+    &::before {
+        content: "";
+        display: block;
+        padding-top: 56.25%; // 16:9 aspect ratio
+    }
+    @media(min-width: 40rem) {
+        &::before {
+            padding-top: 66.6%; // 3:2 aspect ratio
+        }
+    }
+}
+
+.card__image--upload {
+    background-image: url(./images/brett-jordan-gOhIsOBCKK0-unsplash.jpg);
+}
+
+.card__image--register {
+    background-image: url(./images/photo-1528569937393-ee892b976859.jpeg);
+}
+
+.card__image--pricing {
+    background-image: url(./images/chris-curry-2ckoyzBhv00-unsplash.jpg);
+}
+
+.card__title {
+    color: $mainColor;
+    font-size: 1.25rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card__text {
+    flex: 1 1 auto;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
 }

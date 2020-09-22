@@ -3,11 +3,36 @@
   src: local('Noto Sans'), url(./fonts/Noto_Sans/NotoSans-Regular.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 900;
+  src: local('Noto Sans'), url(./fonts/Noto_Sans/NotoSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  src: local('Noto Sans'), url(./fonts/Noto_Sans/NotoSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-weight: 900;
+  font-style: italic;
+  src: local('Noto Sans'), url(./fonts/Noto_Sans/NotoSans-BoldItalic.ttf) format('truetype');
+}
+
+
+
 body {
   margin: 0;
   font-family: Noto Sans, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
 }
 
 code {
