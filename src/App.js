@@ -72,11 +72,11 @@ function App() {
                 <select type="distance" name="distance" id="searchDistance">
                   <option>Select</option>
                   <option>This area only</option>
-                  <option>Under 1 mile</option>
-                  <option>Under 3 miles</option>
-                  <option>Under 5 miles</option>
-                  <option>Under 10 miles</option>
-                  <option>Under 50 miles</option>
+                  <option>Within 1 mile</option>
+                  <option>Within 3 miles</option>
+                  <option>Within 5 miles</option>
+                  <option>Within 10 miles</option>
+                  <option>Within 50 miles</option>
                 </select>
               </FormGroup>
             </Col>
@@ -101,7 +101,7 @@ function App() {
             <Col md={4}>
               <FormGroup check>
                 <Label check for="checkboxBlackAndWhite">
-                  <Input type="checkbox" name="checkbox" id="checkboxBlackAndWhite"/>{' '}
+                  <Input type="checkbox" name="checkbox" id="checkboxBlackAndWhite"/>
                   Black and white only
                 </Label>
               </FormGroup>
