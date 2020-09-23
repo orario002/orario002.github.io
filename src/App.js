@@ -131,8 +131,7 @@ function App() {
                 <div className="card__image card__image--register"></div>
                 <div className="card__content">
                   <h2 className="card__title">JOIN THE COMMUNITY</h2>
-                  <p className="text-left card__text">Take part of our historic photo community and start sharing
-                    today!</p>
+                  <p className="text-left card__text">You can save your favourite photo and share with other members.</p>
                   <Button>Register</Button>
                 </div>
               </div>
