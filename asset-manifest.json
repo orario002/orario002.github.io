@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/orario002/orario002.github.io/static/css/main.785c1246.chunk.css",
-    "main.js": "/orario002/orario002.github.io/static/js/main.a2070719.chunk.js",
-    "main.js.map": "/orario002/orario002.github.io/static/js/main.a2070719.chunk.js.map",
-    "runtime-main.js": "/orario002/orario002.github.io/static/js/runtime-main.69fcbc52.js",
-    "runtime-main.js.map": "/orario002/orario002.github.io/static/js/runtime-main.69fcbc52.js.map",
-    "static/css/2.d9ad5f5c.chunk.css": "/orario002/orario002.github.io/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.c19daad2.chunk.js": "/orario002/orario002.github.io/static/js/2.c19daad2.chunk.js",
-    "static/js/2.c19daad2.chunk.js.map": "/orario002/orario002.github.io/static/js/2.c19daad2.chunk.js.map",
-    "index.html": "/orario002/orario002.github.io/index.html",
-    "precache-manifest.956df838ca7740003616b6493bf35a97.js": "/orario002/orario002.github.io/precache-manifest.956df838ca7740003616b6493bf35a97.js",
-    "service-worker.js": "/orario002/orario002.github.io/service-worker.js",
-    "static/css/2.d9ad5f5c.chunk.css.map": "/orario002/orario002.github.io/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.785c1246.chunk.css.map": "/orario002/orario002.github.io/static/css/main.785c1246.chunk.css.map",
-    "static/js/2.c19daad2.chunk.js.LICENSE.txt": "/orario002/orario002.github.io/static/js/2.c19daad2.chunk.js.LICENSE.txt",
-    "static/media/index.scss": "/orario002/orario002.github.io/static/media/NotoSans-Regular.5a87cce8.ttf",
-    "static/media/App.scss": "/orario002/orario002.github.io/static/media/photo-1528569937393-ee892b976859.9c275876.jpeg",
-    "static/media/logo.svg": "/orario002/orario002.github.io/static/media/logo.1d93bcb8.svg"
+    "main.css": "/static/css/main.e85e634a.chunk.css",
+    "main.js": "/static/js/main.ffa14f33.chunk.js",
+    "main.js.map": "/static/js/main.ffa14f33.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c681c397.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c681c397.js.map",
+    "static/css/2.d9ad5f5c.chunk.css": "/static/css/2.d9ad5f5c.chunk.css",
+    "static/js/2.c19daad2.chunk.js": "/static/js/2.c19daad2.chunk.js",
+    "static/js/2.c19daad2.chunk.js.map": "/static/js/2.c19daad2.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0d18b10cf9580f759d94a9f4449a885e.js": "/precache-manifest.0d18b10cf9580f759d94a9f4449a885e.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.d9ad5f5c.chunk.css.map": "/static/css/2.d9ad5f5c.chunk.css.map",
+    "static/css/main.e85e634a.chunk.css.map": "/static/css/main.e85e634a.chunk.css.map",
+    "static/js/2.c19daad2.chunk.js.LICENSE.txt": "/static/js/2.c19daad2.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/static/media/NotoSans-Regular.5a87cce8.ttf",
+    "static/media/App.scss": "/static/media/photo-1528569937393-ee892b976859.9c275876.jpeg",
+    "static/media/logo.svg": "/static/media/logo.1d93bcb8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.69fcbc52.js",
+    "static/js/runtime-main.c681c397.js",
     "static/css/2.d9ad5f5c.chunk.css",
     "static/js/2.c19daad2.chunk.js",
-    "static/css/main.785c1246.chunk.css",
-    "static/js/main.a2070719.chunk.js"
+    "static/css/main.e85e634a.chunk.css",
+    "static/js/main.ffa14f33.chunk.js"
   ]
 }
